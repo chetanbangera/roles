@@ -1,0 +1,8 @@
+---
+# tasks file for cb.apache
+
+- name: install Apache web server
+  apt:
+     name=apache2
+     state=present
+     update_cache=yes
